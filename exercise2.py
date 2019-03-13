@@ -23,7 +23,7 @@ app.layout = html.Div(children=[
     html.Div(children='''
         This visualization is created from Seattle Pet License Data available at https://data.seattle.gov/Community/Seattle-Pet-Licenses/jguv-t9rb.
         The data were filtered and counted using SQL. The dataset includes information for dog, cat, goat, and pig licenses. However, there are so few goat and pig licenses that they would
-        barely appear on the graph, so they are omitted. The interactive visualization will contain more detail on the breakdown of pets per neighborhood.
+        barely appear on the graph, so they are omitted. Conversion of zip codes in data to neighborhood names using information from http://seattlearea.com/zip-codes/.
     '''),
 
     # append the visualization to the page
